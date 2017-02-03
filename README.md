@@ -9,6 +9,15 @@ This repository will serve as our portal for participating in GSoC 2017.
 We can coordinate participation here, on the [#gsoc channel][slack-gsoc] in the [Clojurians slack][slack], or on the [Clojure mailing list][clojure-ml].
 
 
+## Getting ready for 2017
+
+The window for open source org applications is now open through 9 Feb 2017 at 17:00 UTC!
+This means that right now is the time to:
+
+1. Fill out our [application](application.md) and [profile](profile.md)
+2. Recruit menotrs and flesh out our [project ideas page](project-ideas.md)
+
+
 ## Getting involved
 
 Interested in participating in Clojars' Google Summer of Code?
@@ -89,8 +98,6 @@ For more information about being a great mentor check out [GSoC Mentoring](http:
 Administrators help oversee the progress of the organisation and act as a point of contact for Google.
 Additionally, they help ensure that mentors and students get all of the help they need.
 They can also help communicate about the programme to the community.
-
-## Project ideas
 
 ## Resources
 
