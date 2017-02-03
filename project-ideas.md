@@ -21,17 +21,17 @@ Please add your idea to one of the sections below (create a new section if you l
 ```markdown
 #### Project Title
 
-*Brief explanation:*
+**Brief explanation:**
 A few sentences describing the problem to solve.
 
-*Expected results:*
+**Expected results:**
 What should the student be able to produce by the end of the project.
 This includes tests and documentation.
 
-*Knowledge prerequisite:*
+**Knowledge prerequisite:**
 If a student needs to know something to be able to complete the project, be sure to list it.
 
-*Mentor:*
+**Mentor:**
 Add your name if you are a developer who is willing to be a primary or secondary mentor for the project.
 ```
 
@@ -47,17 +47,17 @@ If you cannot submit the project as a pull request, please submit it to:
 
 #### Project Title
 
-*Brief explanation:*
+**Brief explanation:**
 A few sentences describing the problem to solve.
 
-*Expected results:*
+**Expected results:**
 What should the student be able to produce by the end of the project.
 This includes tests and documentation.
 
-*Knowledge prerequisite:*
+**Knowledge prerequisite:**
 If a student needs to know something to be able to complete the project, be sure to list it.
 
-*Mentor:*
+**Mentor:**
 Add your name if you are a developer who is willing to be a primary or secondary mentor for the project.
 
 
