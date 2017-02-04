@@ -51,7 +51,7 @@ If you cannot submit the project as a pull request, please submit it to:
 
 ### Tooling
 
-### Add cool features to KLIPSE
+#### Add cool features to KLIPSE
 
 **Brief explanation:**
 [KLIPSE](https://github.com/viebel/klipse) is a clojure[script] web repl and also a javascript tag that transforms static code snippets of an html page into live and interactive snippets. It uses self-host clojurescript for evaluating clojure code inside the browser.
@@ -69,3 +69,24 @@ Familiarity with clojure.
 
 **Mentor:**
 Yehonathan Sharvit as a primary mentor - email: viebel@gmail.com
+
+#### Self-host clojurescript migration
+
+**Brief explanation:**
+Make popular clojure[script] libraries self-host compatible.
+
+Self-host clojurescript is the compilation of clojurescript code inside clojurescript. It was introduced in [July 2015](http://swannodette.github.io/2015/07/29/clojurescript-17) but yet not all the popular clojure[script] libraries are self-host compatible. 
+
+When a library is self-host compatible it can be used inside a clojurescipt repl like [planck](https://github.com/mfikes/planck), [lumo](https://github.com/anmonteiro/lumo), [klipse](https://github.com/viebel/klipse) and many more...
+
+Here are some clojure[script] libraries that are not yet self-host compatible: [core.matrix](https://github.com/mikera/core.matrix/), [core.logic](https://github.com/clojure/core.logic), [sablono](https://github.com/r0man/sablono), [rum](https://github.com/tonsky/rum).
+
+**Expected results:**
+A pull-request to the github repo of one or more clojure[script] lib that has been made self-host compatible.
+A blog post with interactive code snippets demonstrating the usage of the library - using [the klipse plugin](https://github.com/viebel/klipse) like this blog posts about [core.match](http://blog.klipse.tech/clojure/2016/10/25/core-match.html), [clojure.spec](http://blog.klipse.tech/clojure/2016/05/30/spec.html) and [om.next](http://read.klipse.tech/om-next-interactive-tutorial/).
+
+**Knowledge prerequisite:**
+Familiarity with clojure macros.
+
+**Mentor:**
+Yehonathan Sharvit as a primary mentor - email: viebel@gmail.com.
