@@ -50,3 +50,22 @@ If you cannot submit the project as a pull request, please submit it to:
 ### Typed Clojure
 
 ### Tooling
+
+### Add cool features to KLIPSE
+
+**Brief explanation:**
+[KLIPSE](https://github.com/viebel/klipse) is a clojure[script] web repl and also a javascript tag that transforms static code snippets of an html page into live and interactive snippets. It uses self-host clojurescript for evaluating clojure code inside the browser.
+
+There a plenty of cool features in KLIPSE backlog. Here are a couple of ideas: code completion, source code search, full integration with github gist, literate programming and more...
+
+If you have other ideas, you are welcome to suggest them.
+
+**Expected results:**
+Implement several features.
+Write blog posts demonstrating the features you have added.
+
+**Knowledge prerequisite:**
+Familiarity with clojure.
+
+**Mentor:**
+Yehonathan Sharvit as a primary mentor - email: viebel@gmail.com
