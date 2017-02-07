@@ -51,6 +51,21 @@ If you cannot submit the project as a pull request, please submit it to:
 
 ### Tooling
 
+**Brief explanation:**
+Port the `boot-clj` task and/or fileset abstractions to ClojureScript so that it can run on Node.JS.
+Part of the porting would be to dive into the boot source code and produce a set of `.cljc` files that are implementing the task [DSL](https://github.com/boot-clj/boot/wiki/Task-Options-DSL), macros, command line parsing and middleware chaining.
+The fileset abstraction would be a bit more complicated because it would need to abstract (async) IO calls. so probably that can be left as a bonus.
+
+**Expected results:**
+A standalone library or a `boot-clj` PR with `.cljc` files.
+
+
+**Knowledge prerequisite:**
+Familiarity with Clojure and Node.JS.
+
+**Mentor:**
+Maybe secondary, after `boot`'s folks, but I can help. Andrea Richiardi (a.richiardi.work@gmail.com).
+
 #### Add cool features to KLIPSE
 
 **Brief explanation:**
