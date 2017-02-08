@@ -70,10 +70,14 @@ Ambrose Bonnaire-Sergeant
 **Brief explanation:**
 The recent emergence of clojure.spec has raised the question
 of how to spec existing code. Recently, attempts have been
-made to piggieback
+made to generate specs from unit tests. This project
+continues that work, adding support for more interesting
+spec invariants and spec evolution alongside project
+changes.
 
 **Expected results:**
-A tool for users to run over their existing code 
+A tool for users to run over existing code to generate
+specs, and evolve existing specs.
 
 **Knowledge prerequisite:**
 The student should have an extensive knowledge of clojure.spec
