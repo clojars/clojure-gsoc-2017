@@ -45,9 +45,203 @@ If you cannot submit the project as a pull request, please submit it to:
 
 ### Clojure
 
+#### Single-pass Clojure compiler, in Clojure
+
+**Brief explanation:**
+We need to bridge the gap between the original Clojure compiler
+(written in Java) and the nanopass approach given by `tools.emitter`.
+The former is fast but hard to configure, while the latter is
+slow but very configurable.
+A missing middle ground is a port of Compiler.java to Clojure,
+that is fast, but configurable.
+
+**Expected results:**
+A fully featured single-pass Clojure compiler.
+
+**Knowledge prerequisite:**
+Extensive experience with compiler writing. Knowledge of
+JVM bytecode. Familiarity with Clojure compilation issues.
+
+**Mentor:**
+Ambrose Bonnaire-Sergeant
+
+#### Automatically Spec'ing Code
+
+**Brief explanation:**
+The recent emergence of clojure.spec has raised the question
+of how to spec existing code. Recently, attempts have been
+made to generate specs from unit tests. This project
+continues that work, adding support for more interesting
+spec invariants and spec evolution alongside project
+changes.
+
+**Expected results:**
+A tool for users to run over existing code to generate
+specs, and evolve existing specs.
+
+**Knowledge prerequisite:**
+The student should have an extensive knowledge of clojure.spec
+and be familiar with Clojure idioms, data structures, and
+runtime.
+
+**Mentor:**
+Ambrose Bonnaire-Sergeant
+
 ### ClojureScript
 
+#### Self-hosted core.async
+
+**Brief explanation:**
+Currently, the Clojure and ClojureScript implementations of core.async
+have very different implementations. This project aims to merge them
+via a unified AST format.
+
+**Expected results:**
+The student should convert the internals of core.async to .cljc
+files, that can easily be bootstrapped.
+
+**Knowledge prerequisite:**
+Experience with `tools.analyzer` AST formats, familiarity with the
+implementation of core.async.
+
+**Mentor:**
+Ambrose Bonnaire-Sergeant
+
 ### Typed Clojure
+
+#### ClojureScript type checker
+
+**Brief explanation:**
+The lack of static type checking in ClojureScript
+is a glaring difference
+compared to Flow, Dart, and TypeScript.
+Typed Clojure has preliminary support for ClojureScript,
+but it has many issues. This project aims to bring static
+type checking in ClojureScript to an acceptable level.
+
+**Expected results:**
+A usable type checker for ClojureScript.
+
+**Knowledge prerequisite:**
+Extensive knowledge of the ClojureScript analyzer and
+compilation pipeline. Knowledge of the features of
+Typed Clojure, including occurrence typing and 
+local type inference. Familiarity with the implementation
+strategy of Typed Clojure's type checker.
+
+**Mentor:**
+Ambrose Bonnaire-Sergeant
+
+#### Semantic Subtyping
+
+**Brief explanation:**
+Recent advances in semantic subtyping have shown
+how to made a practical type system with unions,
+intersection, and negation types.
+This project aims to integrate this work in Typed Clojure,
+to better support negation types and improve error messages.
+
+**Expected results:**
+A semantic subtyping algorithm for Typed Clojure types.
+
+
+**Knowledge prerequisite:**
+Knowledge of semantic subtyping papers, including
+Castgna et. al, POPL'15; and references.
+Knowledge of Typed Clojure's implementation strategies,
+and occurrence typing.
+
+**Mentor:**
+Ambrose Bonnaire-Sergeant
+
+#### Extending Annotation Generation
+
+**Brief explanation:**
+Typed Clojure annotations must currently be hand written.
+Recent work has added support to generate types by instrumenting
+functions and exercising them with unit tests.
+This project extends the existing work with better support
+for reconstructing recursive types, inferring polymorphic types,
+and giving a better story for evolving existing annotations.
+
+**Expected results:**
+Extensions to Typed Clojure improving user-facing tooling
+to generate annotations.
+
+**Knowledge prerequisite:**
+Knowledge of Typed Clojure's base types.
+
+**Mentor:**
+Ambrose Bonnaire-Sergeant
+
+#### Transducers
+
+#### Mixed variable parameters
+
+**Brief explanation:**
+The behaviour of `clojure.core/comp` is a fascinating display
+of why type checking Clojure is a challenging task.
+This project aims to make similar higher-order functions,
+(like `comp`, `partial`, `apply`, `list*`, `some-fn`, `every-pred`)
+type checkable _in the general case_, in a similar way
+variable parameters are used in `map`'s type annotation.
+
+**Expected results:**
+Extensions to Typed Clojure that supports some number
+of the previously mentioned functions, in the general case.
+
+**Knowledge prerequisite:**
+Familiar with Typed Clojure's implementation, including
+occurrence typing and local type inference.
+Understands why the previous functions are difficult to 
+type check.
+
+**Mentor:**
+Ambrose Bonnaire-Sergeant
+
+#### Type checking complicated map operations
+
+**Brief explanation:**
+Currently `update-in` is not checkable in Typed Clojure.
+Building on previous GSoC work, this project aims to 
+extend the base types to reify map operations like
+`assoc-in` and `get-in` at the type level, so we can
+build the type of `update-in`.
+We will then answer the second the question: how to
+infer polymorphic applications of `update-in`.
+
+**Expected results:**
+Higher-order usages of `update-in` are type checkable
+using compositional infrastructure, such that users
+can type simple variations on `update-in`.
+
+**Knowledge prerequisite:**
+Expert in occurrence typing. Well-versed in existing idioms
+around hash maps in Clojure. Familiar with existing solutions
+for type checking hash maps in Typed Clojure.
+
+**Mentor:**
+Ambrose Bonnaire-Sergeant
+
+#### Spec integration
+
+**Brief explanation:**
+Spectrum has prototyped using clojure.spec specs to drive static type
+checking. Clojure.spec annotations are quickly becoming more
+available than Typed Clojure annotations; this project takes advantage
+of this fact and aims to add support for Clojure.spec annotations
+to double as Typed Clojure annotations.
+
+**Expected results:**
+An extension to Typed Clojure supporting Spec's as annotations, for
+local control flow and top-level annotations.
+
+**Knowledge prerequisite:**
+Experience with building type checkers. Deep knowledge of clojure.spec.
+Familiarity with Typed Clojure types.
+
+**Mentor:**
+Ambrose Bonnaire-Sergeant
 
 ### Tooling
 
