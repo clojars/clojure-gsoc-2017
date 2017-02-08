@@ -107,6 +107,53 @@ implementation of core.async.
 **Mentor:**
 Ambrose Bonnaire-Sergeant
 
+#### ClojureScript Performance
+
+**Brief explanation:**
+There are many impactful enhancements we would like to make to ClojureScript with respect to both runtime and compile time performance.
+In both cases we need better infrastructure for visualizing performance changes over time.
+This would require building new benchmark harnesses and ideally a public website where we can publish results for the wider community to follow along.
+This benchmark harness would be a critical tool in assessing the tradeoffs associated with a proposed patch. For runtime performance this work may involve significantly enhancing type inference and type propagation, for example [occurrence typing](https://docs.racket-lang.org/ts-guide/occurrence-typing.html) might be a promising avenue of investigation.
+For compile time enhancements we should examine where parallelization, AST data representation changes, or more aggressive caching of intermediate artifacts may deliver faster development and production build time. Another important area for performance investigation is REPL start time - many ClojureScript developers rely heavily on a REPL driven workflow and shorter REPL launch times will have a big impact on user experience.
+
+**Expected results:** faster runtime performance, faster compile times
+
+**Knowledge prerequisites:** ClojureScript, Clojure, Java
+
+**Mentor:** David Nolen
+
+#### ClojureScript core.async & AST standardization
+
+**Brief explanation:**
+cljs.core.async should be updated to be in sync with with clojure.core.async.
+Currently cljs.core.async still relies on the hand-rolled AST representation instead of the one provided by tools.analyzer.
+Updating cljs.core.async will remove many known issues and bugs.
+This would also be a good opportunity to address quirks and inconsistencies present in the ClojureScript compiler AST.
+Unifying the representations would open the door to more shared tooling between Clojure language implementations.
+
+**Expected results:**
+more robust & maintainable cljs.core.async, shared tooling over common AST
+
+**Knowledge prerequisites:**
+ClojureScript, Clojure, Java
+
+**Mentor:**
+David Nolen
+
+#### core.match compilation
+
+**Brief explanation:**
+Currently core.match relies on a performance quirk of the JVM for backtracking - pre-allocated exceptions.
+This approach does not translate to JavaScript where the cost of throwing an exception is significant.
+Instead we should compile to a loop + jump table (via case).
+This would allow us to deliver good code generation for a much wider variety of targets.
+
+**Expected results:** faster performance on modern JavaScript engines
+
+**Knowledge prerequisites:** ClojureScript, Clojure, Java
+
+**Mentor:** David Nolen
+
 ### Typed Clojure
 
 #### ClojureScript type checker
