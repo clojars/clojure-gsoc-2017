@@ -301,3 +301,19 @@ Familiarity with clojure macros.
 
 **Mentor:**
 Yehonathan Sharvit as a primary mentor - email: viebel@gmail.com.
+
+#### Saga library
+
+**Brief explanation:**
+[Sagas](https://www.cs.cornell.edu/andru/cs711/2002fa/reading/sagas.pdf) were introduced as a method to alleviate the problems with long-lived transactions.
+However, since then, sagas have emerged as a way of approaching error recovery in distributed systems.
+This project proposes creating a general purpose saga library for Clojure and ClojureScript, probaly working atop core.async.
+
+**Expected results:**
+A complete, fully documented and tested library implementing Sagas for Clojure and ClojureScript.
+
+**Knowledge prerequisite:**
+Clojure, ClojureScript, Sagas, core.async
+
+**Mentor:**
+Daniel Solano Gómez (@sattvik)
