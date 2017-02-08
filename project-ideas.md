@@ -120,7 +120,7 @@ but it has many issues. This project aims to bring static
 type checking in ClojureScript to an acceptable level.
 
 **Expected results:**
-A usage type checker for ClojureScript.
+A usable type checker for ClojureScript.
 
 **Knowledge prerequisite:**
 Extensive knowledge of the ClojureScript analyzer and
