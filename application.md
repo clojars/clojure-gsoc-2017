@@ -50,8 +50,8 @@ TODO
 
 ## If your org has applied for GSoC before but not been accepted, select the year:
 
-- [ ] 2016 
-- [x] 2015 
+- [x] 2016
+- [ ] 2015
 - [ ] 2014 
 - [ ] 2013 
 - [ ] 2012 
