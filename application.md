@@ -74,20 +74,43 @@ All in all, we feel like we have done a good job of keeping our students engaged
 - [x] Yes
 - [ ] No
 
+### Which years did your org participate in GSoC?
+
+- [ ] 2016
+- [x] 2015
+- [x] 2014
+- [x] 2013
+- [x] 2012
+- [ ] 2011
+- [ ] 2010
+- [ ] 2009
+- [ ] 2008
+- [ ] 2007
+- [ ] 2006
+- [ ] 2005
+
+### For each year your organization has participated, provide the counts of successful and total students. (e.g. 2016: 3/4)
+
+2015: 5/5
+2014: 9/9
+2013: 6/6
+2012: 4/4
+
+
 ## If your org has applied for GSoC before but not been accepted, select the year:
 
 - [x] 2016
 - [ ] 2015
-- [ ] 2014 
-- [ ] 2013 
-- [ ] 2012 
-- [ ] 2011 
-- [ ] 2010 
-- [ ] 2009 
-- [ ] 2008 
-- [ ] 2007 
-- [ ] 2006 
-- [ ] 2005 
+- [ ] 2014
+- [ ] 2013
+- [ ] 2012
+- [ ] 2011
+- [ ] 2010
+- [ ] 2009
+- [ ] 2008
+- [ ] 2007
+- [ ] 2006
+- [ ] 2005
 
 ### What year was your project started?
 
