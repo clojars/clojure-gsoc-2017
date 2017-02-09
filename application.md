@@ -91,8 +91,7 @@ All in all, we feel like we have done a good job of keeping our students engaged
 
 ### What year was your project started?
 
-Clojure was first publicly released about ten years ago.
-However, most of the open source projects that may participate under the Clojure org are much younger, less than six years old.
+2007
 
 ### Anything else we should know?
 
