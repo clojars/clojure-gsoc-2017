@@ -1,0 +1,6 @@
+- title: Home
+  path: README.md
+  href: /
+- title: Project Ideas
+  path: project-ideas.md
+  href: /project-ideas.html

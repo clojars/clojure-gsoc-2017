@@ -1,8 +1,10 @@
 Clojure/GSoC 2017
 =================
 
-> Google Summer of Code (GSoC) is a program that matches mentoring organizations with college and university student developers who are paid to write open source code.
-> Each year, Google works with many open source, free software and technology-related groups to identify and fund proposals for student open source projects.
+<blockquote>
+Google Summer of Code (GSoC) is a program that matches mentoring organizations with college and university student developers who are paid to write open source code.
+Each year, Google works with many open source, free software and technology-related groups to identify and fund proposals for student open source projects.
+</blockquote>
 
 Clojure has successfully participated in Google Summer of Code in 2012–2015, and we would like to do it again in 2017 as part of Clojars, a member project of the [Software Freedom Conservancy](https://sfconservancy.org/).
 This repository will serve as our portal for participating in GSoC 2017.
