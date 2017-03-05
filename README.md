@@ -1,10 +1,8 @@
 Clojure/GSoC 2017
 =================
 
-<blockquote>
-Google Summer of Code (GSoC) is a program that matches mentoring organizations with college and university student developers who are paid to write open source code.
-Each year, Google works with many open source, free software and technology-related groups to identify and fund proposals for student open source projects.
-</blockquote>
+<blockquote>Google Summer of Code (GSoC) is a program that matches mentoring organizations with college and university student developers who are paid to write open source code.
+Each year, Google works with many open source, free software and technology-related groups to identify and fund proposals for student open source projects.</blockquote>
 
 Clojure has successfully participated in Google Summer of Code in 2012–2015, and we would like to do it again in 2017 as part of Clojars, a member project of the [Software Freedom Conservancy](https://sfconservancy.org/).
 This repository will serve as our portal for participating in GSoC 2017.
@@ -68,9 +66,9 @@ For more information about succeeding as a student, check out the [GSoC Student 
 
 ### Mentors
 
-> Mentors are people from the community who volunteer to work with a student.
-> Mentors provide guidance such as pointers to useful documentation, code reviews, etc.
-> In addition to providing students with feedback and pointers, a mentor acts as an ambassador to help student contributors integrate into their project’s community.
+<blockquote>Mentors are people from the community who volunteer to work with a student.
+Mentors provide guidance such as pointers to useful documentation, code reviews, etc.
+In addition to providing students with feedback and pointers, a mentor acts as an ambassador to help student contributors integrate into their project’s community.</blockquote>
 
 Becoming a mentor can be a fun and rewarding experience.
 It is also a great way to help grow the community around your particular Clojure project.
@@ -94,8 +92,8 @@ For more information about being a great mentor check out [GSoC Mentoring](http:
 
 ### Administrators
 
-> Org admins are the “cat herders” for GSoC open source projects.
-> These people submit the organization’s application to participate in the program to Google, ensure that mentors fill out evaluations in a timely fashion, and generally organize their project’s participation in GSoC. 
+<blockquote>Org admins are the “cat herders” for GSoC open source projects.
+These people submit the organization’s application to participate in the program to Google, ensure that mentors fill out evaluations in a timely fashion, and generally organize their project’s participation in GSoC.</blockquote>
 
 Administrators help oversee the progress of the organisation and act as a point of contact for Google.
 Additionally, they help ensure that mentors and students get all of the help they need.
