@@ -1,0 +1,19 @@
+<section class="mdl-card mdl-shadow--4dp mdl-cell {{ include.card_classes }}">
+  <header class="mdl-card__title">
+    <h2 class="mdl-card__title-text">{{ include.title }}</h2>
+  </header>
+  <main class="mdl-card__supporting-text mdl-card--expand">
+    {{ include.content | markdownify }}
+  </main>
+  <footer class="mdl-card__actions mdl-card--border">
+    {% if include.action1_url and include.action1_text %}
+      <a class="mdl-button mdl-button--primary mdl-js-button js-ripple-effect" href="{{ include.action1_url }}">{{ include.action1_text }}</a>
+    {% endif %}
+    {% if include.action2_url and include.action2_text %}
+      <a class="mdl-button mdl-button--primary mdl-js-button js-ripple-effect" href="{{ include.action2_url }}">{{ include.action2_text }}</a>
+    {% endif %}
+    {% if include.action3_url and include.action3_text %}
+      <a class="mdl-button mdl-button--primary mdl-js-button js-ripple-effect" href="{{ include.action3_url }}">{{ include.action3_text }}</a>
+    {% endif %}
+  </footer>
+</section>

@@ -1,0 +1,8 @@
+- path: index.md
+  name: Home
+- path: students/index.md
+  children:
+    - path: students/application-template.md
+- path: mentors/index.md
+- path: project-ideas/index.md
+- path: resources/index.md

@@ -1,5 +1,7 @@
-Student application guidelines
-==============================
+---
+title: Application template
+redirect_from: "/student-application-guidelines.html"
+---
 
 ## Application template
 

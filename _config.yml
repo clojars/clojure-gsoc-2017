@@ -1,2 +1,11 @@
 title: Clojure/GSoC
 description: Let’s get Clojure ready for GSoC 2017!
+author:
+  twitter: ClojureGSoC
+  picture: /assets/images/clojure-gsoc.png
+excerpt_separator: <!--more-->
+url: http://clojure-gsoc.org/
+gems:
+  - jekyll-feed
+  - jekyll-redirect-from
+  - jekyll-sitemap

@@ -1,4 +1,7 @@
-# Project ideas 2017
+---
+title: Project ideas
+redirect_from: "/project-ideas.html"
+---
 
 ## Information for students
 
