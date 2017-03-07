@@ -1,3 +1,16 @@
 title: Clojure/GSoC
 description: Let’s get Clojure ready for GSoC 2017!
-theme: jekyll-theme-slate
+feed:
+  path: blog/atom.xml
+author:
+  twitter: ClojureGSoC
+  picture: /assets/images/clojure-gsoc.png
+excerpt_separator: <!--more-->
+url: http://clojure-gsoc.org/
+paginate: 5
+paginate_path: "/blog/page:num"
+gems:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-redirect-from
+  - jekyll-sitemap

@@ -1,0 +1,116 @@
+---
+---
+
+.clj-gsoc {
+  @media only screen and (min-width: 1025px) {
+    & header:not(.is-compact) .clj-gsoc-collapsible-header-row {
+      height: 192px;
+
+      img.clj-gsoc-header-icon {
+        display: inherit;
+        height: 128px;
+        margin-right: 16px;
+      }
+
+      .clj-gsoc-title {
+        font-size: 64px;
+      }
+    }
+  }
+
+  .clj-gsoc-header-icon {
+    display: none;
+  }
+
+  .clj-gsoc-drawer-icon {
+    height: 24px;
+    width: 24px;
+  }
+
+  nav.mdl-navigation ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+    .clj-gsoc-section {
+      font-weight: bold;
+    }
+
+    .clj-gsoc-page {
+      padding-left: 56px;
+    }
+
+    .clj-gsoc-current-section {
+      background: #e0e0e0;
+    }
+
+    .clj-gsoc-current-page {
+      color: #000;
+    }
+  }
+
+  .clj-gsoc-content.mdl-grid {
+    max-width: 960px;
+  }
+
+  .clj-gsoc-social-btn {
+    display: inline-block;
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+  }
+
+  .clj-gsoc-social-btn--github {
+    background-image: url('/assets/images/github.svg');
+    background-size: 26px 26px;
+  }
+
+  .clj-gsoc-social-btn--twitter {
+    background-image: url('/assets/images/twitter.svg');
+  }
+
+  .clj-gsoc-content {
+    blockquote {
+      font-size: inherit;
+    }
+
+    a:not(.mdl-button) {
+      color: #303f9f;
+    }
+
+    main > {
+      h1 {
+        font-size: 48px;
+        line-height: 72px;
+      }
+
+      h2 {
+        font-size: 36px;
+        line-height: 48px;
+      }
+
+      h3 {
+        font-size: 24px;
+        line-height: 48px;
+      }
+
+      h4 {
+        font-size: 20px;
+        line-height: 24px;
+      }
+    }
+  }
+
+  .clj-gsoc-pagination {
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+  }
+
+  .clj-gsoc-blog-post-card {
+    .mdl-card__title-text a {
+      color: inherit;
+      text-decoration: none;
+    }
+  }
+}

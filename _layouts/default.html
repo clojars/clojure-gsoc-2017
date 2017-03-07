@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+{% include head.html %}
+
+<body>
+<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header clj-gsoc mdl-layout--fixed-drawer">
+  {% include header.html %}
+  {% include drawer.html %}
+
+  <div class="mdl-color--grey-500 mdl-layout__content">
+    <div class="mdl-grid clj-gsoc-content mdl-shadow--4dp mdl-color--grey-50">
+      <main class="mdl-cell mdl-cell--12-col">
+        {{ content }}
+      </main>
+    </div>
+
+    {% include footer.html %}
+  </div>
+</div>
+<script src="/assets/js/material.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,41 @@
+<div class="mdl-layout__drawer">
+    <span class="mdl-layout-title">
+      <img class="clj-gsoc-drawer-icon" src="/assets/images/clojure-gsoc.png">
+      {{ site.title }}
+    </span>
+  <nav class="mdl-navigation">
+    <ul>
+      {% for section in site.data.sitemap %}
+
+        {% assign s = site.pages | where: "path", section.path | first %}
+
+        {% assign current_section = "" %}
+        {% assign current_page = "" %}
+        {% if page.path == section.path %}
+          {% assign current_section = "clj-gsoc-current-section" %}
+          {% assign current_page = "clj-gsoc-current-page" %}
+        {% else %}
+          {% assign active_child = section.children | where: "path", page.path | first %}
+          {% if active_child %}
+            {% assign current_section = "clj-gsoc-current-section" %}
+          {% endif %}
+        {% endif %}
+        <li class="{{ current_section }}">
+          <a class="mdl-navigation__link clj-gsoc-section {{ current_page }}" href="{{ s.url }}">{{ section.name | default: s.title }}</a>
+          {% if section.children %}
+            <ul>
+              {% for child in section.children %}
+                {% assign current_page = "" %}
+                {% assign c = site.pages | where: "path", child.path | first %}
+                {% if page.path == c.path %}
+                  {% assign current_page = "clj-gsoc-current-page" %}
+                {% endif %}
+                <li><a class="mdl-navigation__link clj-gsoc-page {{ current_page }}" href="{{ c.url }}">{{ child.name | default: c.title }}</a></li>
+              {% endfor %}
+            </ul>
+          {% endif %}
+        </li>
+      {% endfor %}
+    </ul>
+  </nav>
+</div>
