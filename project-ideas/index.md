@@ -157,6 +157,31 @@ This would allow us to deliver good code generation for a much wider variety of 
 
 **Mentor:** David Nolen
 
+### Numerical Clojure
+
+#### Clojure OpenCL
+
+**Brief explanation:**
+Clojure has a powerful array programming abstraction (soon to be part of official Clojure Contrib) called `core.matrix` which enables numerical computing / linear algebra through a common functional API with pluggable implementations.
+
+Modern numerical computing makes externsive use of the GPU, so it would be great to have a first class GPU based implementation for `core.matrix`. This could be achieved by extending the current experimental project vectorz-opencl (https://github.com/mikera/vectorz-opencl) or by creating a completely new implementation.
+
+**Expected results:**
+There should be a fully working core.matrix implementation with key operations optimised for the GPU. The implementation should pass all core.matrix compliance tests.
+
+Performance improvements should be demonstrated and documented (vs. comparable CPU code or GPU implementations).
+
+The implementation as a whole should be documented and packaged as a complete, working library with examples.
+
+**Knowledge prerequisite:**
+- Linear Algebra
+- GPU Programming
+- Basic Clojure and/or Java
+
+**Mentor:**
+Mike Anderson
+
+
 ### Typed Clojure
 
 #### ClojureScript type checker
