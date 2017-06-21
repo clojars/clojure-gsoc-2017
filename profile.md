@@ -1,15 +1,16 @@
 Public Profile
 ==============
 
-|Name                        |Clojure                                           |
-|Website URL                 |http://clojure-gsoc.org                           |
-|Tagline                     |Supporting the Clojure and ClojureScript ecosystem|
-|Logo                        |![Clojure logo](https://static1.squarespace.com/static/5372821be4b0aefc6719057e/t/56a8f163bfe873fb103cfc05/1453912453874/?format=300w)      |
-|Primary Open Source License:|Eclipse Public License 1.0 (EPL-1.0)              |
-|Organization Category       |Programming Languages and Development Tools       |
-|Technology Tags             |Clojure,ClojureScript,JavaScript,JVM,functional programming|
-|Topic Tags                  |programming language, development tools, compilers, functional programming, build systesm|
-|Ideas List                  |http://clojure-gsoc.org/project-ideas.html        |
+| Name                        | Clojure                                           |
+| ---- | ----- |
+| Website URL                 | http://clojure-gsoc.org                           |
+| Tagline                     | Supporting the Clojure and ClojureScript ecosystem|
+| Logo                        | ![Clojure logo](https://static1.squarespace.com/static/5372821be4b0aefc6719057e/t/56a8f163bfe873fb103cfc05/1453912453874/?format=300w)      |
+| Primary Open Source License:| Eclipse Public License 1.0 (EPL-1.0)              |
+| Organization Category       | Programming Languages and Development Tools       |
+| Technology Tags             | Clojure,ClojureScript,JavaScript,JVM,functional programming |
+| Topic Tags                  | programming language, development tools, compilers, functional programming, build systesm |
+| Ideas List                  | http://clojure-gsoc.org/project-ideas.html        |
 
 
 ## Descriptions
