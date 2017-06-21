@@ -50,7 +50,7 @@ Clojure, as a GSoC mentoring organization, includes projects from all parts of t
 > Examples: New Feature, Optimization. You can also use these to designate “sub-organizations” if you are an umbrella organization.
 
 
-### Application insturctions
+### Application instructions
 
 *1500 Characters*
 
@@ -106,9 +106,12 @@ Clojure, as a GSoC mentoring organization, includes projects from all parts of t
 
 TODO
 
-|Chat         |http://clojurians.net/                |
-|Mailing list |http://groups.google.com/group/clojure|
-|General Email|                                      |
+
+| Method | link |
+| ---- | ----- |
+| Chat         |http://clojurians.net/                |
+| Mailing list |http://groups.google.com/group/clojure|
+| General Email|                                      |
 
 ## Links
 
