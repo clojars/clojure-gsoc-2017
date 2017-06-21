@@ -117,6 +117,8 @@ TODO
 
 TODO
 
+| Platform | link |
+| ---- | ---- |
 |Google+ URL| |
 |Twitter URL| https://twitter.com/ClojureGSoC |
 |Blog URL| http://clojure-gsoc.org/|
